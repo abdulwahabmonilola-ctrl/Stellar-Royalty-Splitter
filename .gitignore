@@ -7,9 +7,13 @@ frontend/node_modules
 backend/node_modules
 
 # Env
-.env
 backend/.env
 frontend/.env
 
 # Deployed contract ID
 .contract-id
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
