@@ -1,5 +1,8 @@
 import { retryBuildTx } from "../stellar.js";
 import { recordTransaction, addAuditLog } from "../database/index.js";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 /**
  * Shared pattern for transaction-building routes:
